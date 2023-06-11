@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: rgb(219, 236, 232);
+}
+.title {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.box{
+    width: 40%;
+    background-color: rebeccapurple;
+}
+.parent{
+    margin-top: 25px;
+}
+
+.box{
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+
+.box-green{
+    width: 40%;
+    background-color: green;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 7px;
+    margin-top: 50px;
+}
+.spn{
+    width: 90%;
+    font-size: 20px;
+    color: white;
+    line-height: 27px;
+}
+
+i{
+    font-size: 15px;
+    color: white;
+}
+
+.none{
+    display: none;
+}
